@@ -1,0 +1,30 @@
+for udemy course - 
+ 
+after adding project to Atom
+go to it bash and navigate to the added project folder
+
+cd for change directory
+ls for listing the contents inside that folder
+pwd - check folder you are in 
+cd.. - to prev directory
+
+create project in git repo -
+
+1)initialise the project 
+  open git bash and type
+       git init
+  message appears- Initialized empty Git repository in C:/Users/Anjali/Projects/profiles-rest-api/.git/
+
+2)open atom(reload atom)
+  now the project folder icon will have changed and a'git' folder has been created 
+  get automatically updated 
+3)create readme file
+   new file > readme.md(markdown)
+   the file is highlihted green, tells that this has not yet been commited in git
+4) put content in readme.md - learn how to write
+   #(for heading)
+5)created git ignore file
+when commiting to a git project, best practice is to not create files like
+local db files, python binary files that are automatically created when we run our project
+only basic text based source code
+git ignore file is a list of files that tells git don't add these files to repo 
